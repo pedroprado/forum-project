@@ -1,0 +1,7 @@
+.MainPage{
+    width: 80%;
+    background-color: 	#E8E8E8;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}

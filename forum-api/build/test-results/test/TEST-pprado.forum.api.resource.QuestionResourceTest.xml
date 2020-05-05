@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pprado.forum.api.resource.QuestionResourceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-03T21:53:48" hostname="ni-33539-0" time="0.02">
+  <properties/>
+  <testcase name="createTest_Exception()" classname="pprado.forum.api.resource.QuestionResourceTest" time="0.012"/>
+  <testcase name="findByIdTest_Empty()" classname="pprado.forum.api.resource.QuestionResourceTest" time="0.001"/>
+  <testcase name="listQuestionsTest_Empty()" classname="pprado.forum.api.resource.QuestionResourceTest" time="0.0"/>
+  <testcase name="listQuestionsTest_Exception()" classname="pprado.forum.api.resource.QuestionResourceTest" time="0.0"/>
+  <testcase name="listQuestionsTest()" classname="pprado.forum.api.resource.QuestionResourceTest" time="0.001"/>
+  <testcase name="findByIdTest()" classname="pprado.forum.api.resource.QuestionResourceTest" time="0.001"/>
+  <testcase name="createTest()" classname="pprado.forum.api.resource.QuestionResourceTest" time="0.001"/>
+  <testcase name="findByIdTest_Exception()" classname="pprado.forum.api.resource.QuestionResourceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,38 @@
+version: '3'
+services:
+    mongodb:
+      image: 'mongo'
+      container_name: 'mongo_db_forum_complete'
+      restart: always
+      environment:
+        MONGO_INITDB_DATABASE: mydatabase
+      volumes:
+        - ./mongo/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+        # - ./mongo/mongo-volume:/data/db
+      ports:
+        - '27017:27017'
+    api:
+      build:
+        context: ./forum-api
+      environment:
+        SERVER_PORT: 8080
+        MONGODB_HOST: mongodb
+        MONGODB_PORT: 27017
+        MONGODB_DB: mydatabase
+        MONGODB_USER: admin
+        MONGODB_PASSWORD: rocha
+      ports:
+        - '8080:8080'
+      depends_on:
+        - mongodb
+    client:
+      build:
+        context: ./forum-app
+      volumes:
+        - /app/node_modules
+        - ./forum-app:/app
+      ports:
+        - '3000:3000'
+      depends_on:
+        - api
+        

@@ -1,0 +1,27 @@
+.AnswerItem{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;  
+    margin-bottom: 5px;
+    justify-content: flex-end;
+
+}
+
+.AnswerItemText{
+    padding: 5px;
+    width: 80%;
+    word-wrap: break-word;
+    border: 2px dotted black;
+}
+
+.AnswerItemPersonInfo{
+    display: block;
+    align-items: center;
+    padding: 5px;
+    width: 20%;
+    text-align: right;
+    word-wrap: break-word;
+    border: 2px solid black;
+    margin-left: 5px;
+}

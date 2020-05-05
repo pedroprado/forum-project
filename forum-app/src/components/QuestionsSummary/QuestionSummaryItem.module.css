@@ -1,0 +1,92 @@
+.QuestionItem{
+    display: flex;
+    margin-top: 20px;
+    height: 70px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.QuestionItemText{
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-color:  #99ccff    ;
+    background-color: white;
+    padding: 10px 5px 5px 5px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.QuestionItemText:hover{
+    cursor: pointer;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  blue ;
+}
+
+
+.QuestionParagraph{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.QuestionItemAnswers{
+    display: block;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightskyblue;
+    padding: 10px 5px 10px 5px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 70px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.AnswersParagraph{
+    height: 10px;
+    margin: 0px;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.LikeButton{
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightskyblue;
+    background-color: white;
+    padding: 10px 5px 10px 5px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 70px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.LikeNumberDiv{
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightskyblue;
+    background-color: white;
+    box-sizing: border-box;
+    height: 100%;
+    width: 70px;
+    text-align: center;
+}
+
+.LikeNumberText{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+}

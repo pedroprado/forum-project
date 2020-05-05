@@ -1,0 +1,16 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: "forum-api"
+
+  data:
+    mongodb:
+      host: ${MONGODB_HOST:localhost}
+      port: ${MONGODB_PORT:27018}
+      database: ${MONGODB_DB:mydatabase}
+      username: ${MONGODB_USER:admin}
+      password: ${MONGODB_PASSWORD:rocha}
+      respositories:
+        enable: true
