@@ -1,0 +1,65 @@
+# APP------
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+forum-app/node_modules
+forum-app/.pnp
+forum-app.pnp.js
+
+# testing
+forum-app/coverage
+
+# production
+forum-app/build
+
+# misc
+forum-app/.DS_Store
+forum-app/.env.local
+forum-app/.env.development.local
+forum-app/.env.test.local
+forum-app/.env.production.local
+
+forum-app/npm-debug.log*
+forum-app/yarn-debug.log*
+forum-app/yarn-error.log*
+
+
+#APP--------------------
+
+# API--------------------
+
+forum-api/HELP.md
+forum-api/.gradle
+forum-api/build/
+!forum-api/gradle/wrapper/gradle-wrapper.jar
+!**forum-api/src/main/**
+!**forum-api/src/test/**
+
+### STS ###
+forum-api/.apt_generated
+forum-api/.classpath
+forum-api/.factorypath
+forum-api/.project
+forum-api/.settings
+forum-api/.springBeans
+forum-api/.sts4-cache
+
+### IntelliJ IDEA ###
+forum-api/.idea
+*forum-api/.iws
+*forum-api/.iml
+*forum-api/.ipr
+forum-api/out/
+
+### NetBeans ###
+forum-api//nbproject/private/
+forum-api//nbbuild/
+forum-api//dist/
+forum-api//nbdist/
+forum-api//.nb-gradle/
+
+./mongo/mongo-volume
+
+### VS Code ###
+.vscode/
+# API--------------------
